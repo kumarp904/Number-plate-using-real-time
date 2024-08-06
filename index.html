@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" class="favicon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/myCustom.css">
+
+    <title>RLS</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                <i class="ri-steering-fill"></i>
+                RLS
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+               
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Togglar Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+    
+    
+
+    <!--************* MAIN CODE ****************-->
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="shapeX shape__big"></div>
+            <div class="shapeX shape__small"></div>
+
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <div><p id="datetime"></p>
+                            <script>
+                          // Get current date and time
+                            var now = new Date();
+                              var datetime = now.toLocaleString();
+                        
+                          // Insert date and time into HTML
+                            document.getElementById("datetime").innerHTML = datetime;
+                            </script></div>
+                    </h1>
+                    <h2 class="home__subtitle">
+                        Number Plate Detection 
+                    </h2>
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>
+                        Number Identification APP
+                    </h3>
+                </div>
+
+                <img src="assets/img/popular3.png" alt="" class="home__img">
+                
+                <div class="home__car">
+                    
+                </div>
+
+                <a href="index1.html" class="home__button">START</a>
+
+                <div class="slider__bg">
+                <div class="slider__bg-navBtn active"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                
+                </div>
+
+
+
+            </div>
+            <div class="home__social">
+                <a href="tel:123456789" class="home__social-icon"><i class="fa fa-phone"></i></a>
+                <a href="https://www.youtube.com/" class="home__social-icon"><i class="ri-youtube-fill"></i></a>
+                <a href="https://maps.google.com/" class="home__social-icon"><i class="ri-map-pin-fill"></i></a>
+                <a href="https://open.spotify.com/" class="home__social-icon"><i class="ri-spotify-fill"></i></a>
+
+
+            </div>
+            
+
+        </section>
+         <!--==================== GALLERY BANNER ====================-->
+         <section class="gallery section">
+            <div class="gallery__container container grid">
+                <!-- <video class="video__slide active" src="assets/video/major pests or insect in paddy._ insects in rice crop.mp4" autoplay muted loop></video> -->
+                <video class="video__slide active" src="assets/video/vid_1.mp4" autoplay muted loop></video>        
+                <video class="video__slide active" src="assets/video/vid_2.mp4" autoplay muted loop></video>      
+                <video class="video__slide active" src="assets/video/vid_3.mp4" autoplay muted loop></video>      
+                <video class="video__slide active" src="assets/video/vid_4.mp4" autoplay muted loop></video>  
+                <video class="video__slide active" src="assets/video/vid_5.mp4" autoplay muted loop></video>           
+            </div>
+        </section>
+
+        
+    <!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
+    
+
+    <!--=============== SWIPER JS - PRODUCT SLIDER ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP JS - FILTER PRODUCT ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+        <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/65e616929131ed19d974e3e2/1ho5hhrf9';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+
+</body>
+
+
+
+</html>
